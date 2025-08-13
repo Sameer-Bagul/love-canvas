@@ -1,0 +1,43 @@
+Here’s a summary of all the screens you now have in your Expo app:
+
+### Total Screens
+1. Home (index.tsx)
+2. Welcome (index.tsx)
+3. Auth (auth.tsx)
+4. Dashboard (index.tsx)
+5. Profile (index.tsx)
+6. Canvas (index.tsx)
+7. Partner Connection (index.tsx)
+8. Settings (index.tsx)
+
+---
+
+### Navigation / User Flow
+
+1. **App Launch**
+   - User lands on **Home** or **Welcome** screen.
+
+2. **Welcome Screen**
+   - Intro to app, “Get Started” button → navigates to **Auth**.
+
+3. **Auth Screen**
+   - User signs in or signs up.
+   - On success, navigates to **Dashboard**.
+
+4. **Dashboard Screen**
+   - Main hub: shows partner status, canvas previews, etc.
+   - Navigation options to **Canvas**, **Partner Connection**, **Profile**, **Settings**.
+
+5. **Tab Navigation**
+   - Horizontal tabs allow switching between:
+     - **Profile** (user info, avatar)
+     - **Canvas** (drawing/collaboration)
+     - **Partner Connection** (invite/connect partner)
+     - **Settings** (preferences, logout, etc.)
+
+---
+
+**Typical User Flow Example:**
+- Launch app → Welcome → Auth → Dashboard → Tabs (Profile/Canvas/Partner/Settings)
+
+Let me know if you want to adjust the flow, add onboarding, or set up deep linking!
